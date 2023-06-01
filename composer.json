@@ -1,0 +1,21 @@
+{
+    "name": "lubed/apc-cache",
+    "type": "component",
+    "description": "lubed apc caches",
+    "keywords": [
+        "apc","cache"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lubed\\ApcCache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-apc": "*",
+        "lubed/caches": "dev-main",
+        "lubed/supports": "dev-main",
+        "lubed/exceptions": "dev-main"
+    }
+}
